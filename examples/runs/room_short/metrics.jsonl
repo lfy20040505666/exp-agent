@@ -1,0 +1,14 @@
+{"step": 500, "loss": 0.1481, "train_psnr": 21.687, "num_gaussians": 117129}
+{"step": 1000, "loss": 0.12484, "train_psnr": 23.258, "num_gaussians": 132628}
+{"step": 1500, "loss": 0.11203, "train_psnr": 24.487, "num_gaussians": 146652}
+{"step": 2000, "loss": 0.09752, "train_psnr": 25.71, "num_gaussians": 159342}
+{"step": 2500, "loss": 0.08185, "train_psnr": 26.769, "num_gaussians": 170824}
+{"step": 3000, "loss": 0.07605, "train_psnr": 27.635, "num_gaussians": 181213}
+{"step": 3500, "loss": 0.06798, "train_psnr": 28.747, "num_gaussians": 190614}
+{"step": 4000, "loss": 0.05801, "train_psnr": 29.475, "num_gaussians": 199120}
+{"step": 4500, "loss": 0.0571, "train_psnr": 30.289, "num_gaussians": 206817}
+{"step": 5000, "loss": 0.04992, "train_psnr": 30.643, "num_gaussians": 213781}
+{"step": 5500, "loss": 0.04093, "train_psnr": 31.406, "num_gaussians": 220083}
+{"step": 6000, "loss": 0.04295, "train_psnr": 31.762, "num_gaussians": 225785}
+{"step": 6500, "loss": 0.03833, "train_psnr": 32.164, "num_gaussians": 230944}
+{"step": 7000, "loss": 0.03487, "train_psnr": 32.334, "num_gaussians": 235612}

@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=77"]  # needed for the SPDX `license = "MIT"` string
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "exp-agent"
+version = "0.1.0"
+description = "A small tool-calling LLM agent (with MCP server, HTTP API and evals) that answers questions about ML training runs."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+dependencies = []  # standard library only
+
+[project.scripts]
+expagent = "expagent.cli:main"
+
+[tool.setuptools]
+packages = ["expagent"]

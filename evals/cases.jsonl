@@ -1,0 +1,10 @@
+{"id": "list_all", "question": "目前一共有哪些训练实验？", "expect_tools": ["list_runs"], "must_contain": ["lego_baseline", "lego_low_thresh", "lego_high_lr", "room_baseline", "room_short"]}
+{"id": "final_psnr", "question": "lego_baseline 最终的 PSNR 是多少？", "expect_tools": ["get_final_metrics"], "must_contain": ["35.12"]}
+{"id": "best_lpips_scene", "question": "lego 场景里哪个实验的 LPIPS 最好？", "expect_tools": [["compare_runs", "get_final_metrics"]], "must_contain": ["lego_low_thresh"]}
+{"id": "why_failed", "question": "lego_high_lr 为什么没有最终结果？", "expect_tools": ["diagnose_run"], "must_contain_any": ["nan", "发散", "diverge"]}
+{"id": "config_iters", "question": "room_short 计划训练多少步？", "expect_tools": ["get_run_config"], "must_contain": ["7000"]}
+{"id": "no_invent", "question": "lego_high_lr 的最终 PSNR 是多少？", "expect_tools": ["get_final_metrics"], "must_contain_any": ["没有", "无", "no_eval", "not", "未"]}
+{"id": "compare_two", "question": "比较 room_baseline 和 room_short 的 SSIM，哪个更高？", "expect_tools": ["compare_runs"], "must_contain": ["room_baseline", "0.9174"]}
+{"id": "unknown_run", "question": "lego_v9 这个实验的 PSNR 是多少？", "expect_tools": [], "must_contain_any": ["不存在", "没有", "unknown", "not found", "找不到", "未找到"]}
+{"id": "gaussian_count", "question": "lego_low_thresh 训练结束时有多少个高斯点？", "expect_tools": ["get_metric_curve"], "must_contain_any": ["424972", "424,972", "42.5万", "42.50万"]}
+{"id": "english_compare", "question": "Which room run has the higher final PSNR?", "expect_tools": [["compare_runs", "get_final_metrics"]], "must_contain": ["room_baseline"]}

@@ -1,0 +1,8 @@
+{
+  "scene": "lego",
+  "iterations": 30000,
+  "position_lr_init": 0.00016,
+  "densify_grad_threshold": 0.0002,
+  "densify_until_iter": 15000,
+  "sh_degree": 3
+}

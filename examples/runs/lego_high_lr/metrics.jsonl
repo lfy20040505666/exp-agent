@@ -1,0 +1,15 @@
+{"step": 500, "loss": 0.14802, "train_psnr": 21.379, "num_gaussians": 117129}
+{"step": 1000, "loss": 0.1291, "train_psnr": 23.498, "num_gaussians": 132628}
+{"step": 1500, "loss": 0.1099, "train_psnr": 24.541, "num_gaussians": 146652}
+{"step": 2000, "loss": 0.09813, "train_psnr": 25.786, "num_gaussians": 159342}
+{"step": 2500, "loss": 0.08576, "train_psnr": 26.978, "num_gaussians": 170824}
+{"step": 3000, "loss": 0.07411, "train_psnr": 27.682, "num_gaussians": 181213}
+{"step": 3500, "loss": 0.07117, "train_psnr": 28.591, "num_gaussians": 190614}
+{"step": 4000, "loss": 0.06003, "train_psnr": 29.45, "num_gaussians": 199120}
+{"step": 4500, "loss": 0.05345, "train_psnr": 29.819, "num_gaussians": 206817}
+{"step": 5000, "loss": 0.04656, "train_psnr": 30.441, "num_gaussians": 213781}
+{"step": 5500, "loss": 0.04632, "train_psnr": 31.043, "num_gaussians": 220083}
+{"step": 6000, "loss": 0.03857, "train_psnr": 31.832, "num_gaussians": 225785}
+{"step": 6500, "loss": 0.22728, "train_psnr": 24.303, "num_gaussians": 230944}
+{"step": 7000, "loss": NaN, "train_psnr": NaN, "num_gaussians": 235612}
+{"step": 7500, "loss": NaN, "train_psnr": NaN, "num_gaussians": 239836}
